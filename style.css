@@ -1,0 +1,34 @@
+#myheadshot {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:992px) {
+    .navbar .container-fluid,
+    .navbar-expand-lg .navbar-collapse .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar {
+        width: 20%;
+        height: 100vh;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        flex: 1;
+        min-height: 100vh; 
+        padding: 20px;
+    }
+}
