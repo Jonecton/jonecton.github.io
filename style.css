@@ -2,16 +2,16 @@ html{
     scroll-behavior: smooth;
 }
 #myheadshot {
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 h1.title{
     font-family: 'Outfit', sans-serif;
-    font-size: 5.5vw;
+    font-size: 5.5rem;
     font-weight: 500;
 }
 #homeinfo{
-    font-size: 2vw;
+    font-size: 2rem;
 }
 #address{
     font-weight: 400;
@@ -33,6 +33,7 @@ h1.title{
         max-width: 300px;
         width: 20%;
         height: 100vh;
+        font-size: larger;
     }
 
     main {
