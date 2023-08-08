@@ -7,8 +7,21 @@ html{
 }
 h1.title{
     font-family: 'Outfit', sans-serif;
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-weight: 500;
+}
+#homeinfo{
+    font-size: 2vw;
+}
+#address{
+    font-weight: 400;
+}
+#socials{
+    position: absolute;
+    bottom: 0;
+}
+#homedescription{
+    font-size: 10px;
 }
 @media screen and (min-width:992px) {
     .navbar .container-fluid,
@@ -38,6 +51,7 @@ h1.title{
         flex: 1;
         min-height: 100vh; 
         padding: 20px;
+        
     }
 }
 
@@ -47,6 +61,7 @@ h1.title{
     font-weight: 200;
     background-image: linear-gradient(rgb(119, 119, 119), rgb(255, 255, 255));
     max-height: 100vh;
+    position: relative;
 }
 
 a {
