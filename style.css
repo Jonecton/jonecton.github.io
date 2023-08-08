@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 #myheadshot {
     width: 100%;
     height: auto;
 }
 h1{
     font-family: 'Outfit', sans-serif;
-    font-size: 48px;
+    font-size: 70px;
     font-weight: 500;
 }
 @media screen and (min-width:992px) {
@@ -42,4 +45,15 @@ h1{
     font-size: larger;
     font-family: "Outfit", sans-serif;
     font-weight: 200;
+    background-image: url("Untitled design-4.png");
+    max-height: 100vh;
 }
+
+a {
+    color: #000000;
+  }
+  
+  a:hover, a:focus, a:active {
+    color: #ffffff;
+  }
+
