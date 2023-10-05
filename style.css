@@ -85,6 +85,31 @@ h1.title {
     position: relative;
 }
 
+#page2 {
+    padding: 0%;
+    justify-content: flex-start;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+#leftcol{
+    padding: 20px;
+}
+.with-vertical-line {
+    background: #ffffffd7;
+    color: #1F4880;
+  }
+  
+
 a {
     color: #ffffff;
 }
