@@ -1,29 +1,45 @@
-html{
-    scroll-behavior: smooth;
+body {
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    color: white;
 }
 #myheadshot {
     width: 85%;
     height: auto;
 }
-h1.title{
+
+h1.title {
     font-family: 'Outfit', sans-serif;
     font-size: 5.5rem;
     font-weight: 500;
 }
-#homeinfo{
+
+#homeinfo {
     font-size: 2rem;
 }
-#address{
+
+#address {
     font-weight: 400;
 }
-#socials{
+
+#links {
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
 }
-#homedescription{
+
+#resume{
+    position: absolute;
+    bottom: 2%;
+    padding-left: 10%;
+}
+
+#homedescription {
     font-size: 10px;
 }
-@media screen and (min-width:992px) {
+
+@media screen and (min-width: 992px) {
     .navbar .container-fluid,
     .navbar-expand-lg .navbar-collapse .navbar-nav {
         flex-direction: column;
@@ -34,6 +50,7 @@ h1.title{
         width: 20%;
         height: 100vh;
         font-size: larger;
+        border-right: 1px solid rgba(255, 255, 255, 0.3);
     }
 
     main {
@@ -41,35 +58,39 @@ h1.title{
         flex-direction: column;
         height: 100vh;
         overflow-y: auto;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
     }
 
-    
     .page {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: left;
         flex: 1;
-        min-height: 100vh; 
+        min-height: 100vh;
         padding: 20px;
-        
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        scroll-snap-align: start;
+        transition: start 2s;
     }
+    
 }
 
-#page1{
+#page1 {
     font-size: larger;
     font-family: "Outfit", sans-serif;
     font-weight: 200;
-    background-image: linear-gradient(rgb(119, 119, 119), rgb(255, 255, 255));
     max-height: 100vh;
     position: relative;
 }
 
 a {
-    color: #000000;
-  }
-  
-  a:hover, a:focus, a:active {
     color: #ffffff;
-  }
+}
 
+a:hover,
+a:focus,
+a:active {
+    color: #ffffff;
+}
