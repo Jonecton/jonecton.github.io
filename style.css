@@ -87,11 +87,6 @@ h1.title {
     position: relative;
 }
 
-#page2 {
-    justify-content: flex-start;
-}
-
-
 .banner {
     overflow: hidden;
     display: flex;
