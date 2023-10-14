@@ -3,11 +3,8 @@ body {
     background-size: cover;
     background-attachment: fixed; 
     background-repeat: no-repeat;
+    overflow-x: hidden;
     color: white;
-}
-#myheadshot {
-    width: 85%;
-    height: auto;
 }
 
 h1.title {
@@ -37,6 +34,11 @@ h1.title {
 
 #homedescription {
     font-size: 10px;
+}
+
+#carouselExampleCaptions {
+    width: 75%;
+    margin-bottom: 5%;
 }
 
 @media screen and (min-width: 992px) {
@@ -69,7 +71,7 @@ h1.title {
         align-items: left;
         flex: 1;
         min-height: 100vh;
-        padding: 20px;
+        padding-left: 20px;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
         scroll-snap-align: start;
         transition: start 2s;
@@ -86,18 +88,17 @@ h1.title {
 }
 
 #page2 {
-    padding: 0%;
     justify-content: flex-start;
 }
 
+
 .banner {
-    width: 100%;
     overflow: hidden;
     display: flex;
   }
   
   .banner img {
-    width: 100%;
+    max-width: 80vw;
     height: auto;
     display: block;
   }
