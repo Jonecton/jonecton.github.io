@@ -161,7 +161,7 @@ a:active {
 
 .fakeScreen {
   background-color: #151515;
-  opacity: .6;
+  opacity: .75;
   box-sizing: border-box;
   width: 80vw;
   padding: 20px;
