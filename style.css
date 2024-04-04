@@ -1,341 +1,341 @@
 body {
-    background-image: url('bg.jpg');
-    background-size: cover;
-    background-attachment: fixed; 
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-    color: white;
+  background-image: url('bg.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  color: white;
 }
 
 h1.title {
-    font-family: 'Outfit', sans-serif;
-    font-size: 5.5rem;
-    font-weight: 500;
+  font-family: 'Outfit', sans-serif;
+  font-size: 5.5rem;
+  font-weight: 500;
 }
 
 #homeinfo {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 #address {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 #links {
-    position: absolute;
-    bottom: 5%;
+  justify-content: center;
+  position: absolute;
+  bottom: 5%;
 }
 
 #resume{
-    position: absolute;
-    bottom: 2%;
-    padding-left: 10%;
+vertical-align: bottom;
 }
 
 #homedescription {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 #carouselExampleCaptions {
-    width: 75%;
-    margin-bottom: 5%;
+  width: 75%;
+  margin-bottom: 5%;
 }
 #terminalbox{
-    width: 80vw;
-    margin: auto;
+  width: 80vw;
+  margin: auto;
 }
 
 @media screen and (min-width: 992px) {
-    .navbar .container-fluid,
-    .navbar-expand-lg .navbar-collapse .navbar-nav {
-        flex-direction: column;
-    }
+  .navbar .container-fluid,
+  .navbar-expand-lg .navbar-collapse .navbar-nav {
+      flex-direction: column;
+  }
 
-    .navbar {
-        max-width: 300px;
-        width: 20%;
-        height: 100vh;
-        font-size: larger;
-        border-right: 1px solid rgba(255, 255, 255, 0.3);
-    }
+  .navbar {
+      max-width: 300px;
+      width: 20%;
+      height: 100vh;
+      font-size: larger;
+      border-right: 1px solid rgba(255, 255, 255, 0.3);
+  }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        overflow-y: auto;
-        scroll-snap-type: y mandatory;
-        scroll-behavior: smooth;
-    }
+  main {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+  }
 
-    .page {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: left;
-        flex: 1;
-        min-height: 100vh;
-        padding-left: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        scroll-snap-align: start;
-        transition: start 2s;
-    }
-    
+  .page {
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      flex: 1;
+      min-height: 100vh;
+      border-top: 1px solid rgba(255, 255, 255, 0.3);
+      scroll-snap-align: start;
+      transition: start 2s;
+  }
+  
 }
 
 #page1 {
-    font-size: larger;
-    font-family: "Outfit", sans-serif;
-    font-weight: 200;
-    max-height: 100vh;
-    position: relative;
+  font-size: larger;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  max-height: 100vh;
+  position: relative;
 }
 
 #page2{
-    justify-content: center;
+  justify-content: center;
 }
 
 .banner {
-    overflow: hidden;
-    display: flex;
-  }
-  
+  overflow: hidden;
+  display: flex;
+}
+
 .banner img {
-    max-width: 80vw;
-    height: auto;
-    display: block;
+  max-width: 80vw;
+  height: auto;
+  display: block;
 }
 #leftcol{
-    padding: 20px;
+  padding: 20px;
 }
 .with-vertical-line {
-    background: #ffffffd7;
-    color: #1F4880;
-  }
-  
+  background: #ffffffd7;
+  color: #1F4880;
+}
+
 
 a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 
 .fakeButtons {
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    border: 1px solid #000;
-    position: relative;
-    top: 6px;
-    left: 6px;
-    background-color: #ff3b47;
-    border-color: #9d252b;
-    display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  background-color: #ff3b47;
+  border-color: #9d252b;
+  display: inline-block;
 }
-  
+
 .fakeMinimize {
-    left: 11px;
-    background-color: #ffc100;
-    border-color: #9d802c;
+  left: 11px;
+  background-color: #ffc100;
+  border-color: #9d802c;
 }
-  
+
 .fakeZoom {
-  left: 16px;
-  background-color: #00d742;
-  border-color: #049931;
+left: 16px;
+background-color: #00d742;
+border-color: #049931;
 }
 
 .fakeMenu {
-  width: 80vw;
-  box-sizing: border-box;
-  height: 25px;
-  background-color: #bbb;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
+width: 80vw;
+box-sizing: border-box;
+height: 25px;
+background-color: #bbb;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
 }
 
 .fakeScreen {
-  background-color: #151515;
-  opacity: .75;
-  box-sizing: border-box;
-  width: 80vw;
-  padding: 20px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+background-color: #151515;
+opacity: .75;
+box-sizing: border-box;
+width: 80vw;
+padding: 20px;
+border-bottom-left-radius: 5px;
+border-bottom-right-radius: 5px;
 }
 
 #terminalbox{
-    padding-right: 2%;
-    padding-bottom: 2%;
-    margin: auto;
-    text-align: left;
-    font-size: 1.25em;
-    font-family: monospace;
-    overflow: hidden;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin: auto;
+  text-align: left;
+  font-size: 1.25em;
+  font-family: monospace;
+  overflow: hidden;
 }
 
 span {
-  color: #fff;
-  font-weight: bold;
+color: #fff;
+font-weight: bold;
 }
 
 .line1 {
-  color: #ffffff;
-  -webkit-animation: type .5s 1s steps(20, end) forwards;
-  -moz-animation: type .5s 1s steps(20, end) forwards;
-  -o-animation: type .5s 1s steps(20, end) forwards;
-  animation: type .5s 1s steps(20, end) forwards;
+color: #ffffff;
+-webkit-animation: type .5s 1s steps(20, end) forwards;
+-moz-animation: type .5s 1s steps(20, end) forwards;
+-o-animation: type .5s 1s steps(20, end) forwards;
+animation: type .5s 1s steps(20, end) forwards;
 }
 
 .cursor1 {
-  -webkit-animation: blink 1s 2s 2 forwards;
-  -moz-animation: blink 1s 2s 2 forwards;
-  -o-animation: blink 1s 2s 2 forwards;
-  animation: blink 1s 2s 2 forwards;
+-webkit-animation: blink 1s 2s 2 forwards;
+-moz-animation: blink 1s 2s 2 forwards;
+-o-animation: blink 1s 2s 2 forwards;
+animation: blink 1s 2s 2 forwards;
 }
 
 .line2 {
-  color: #ffffff;
-  -webkit-animation: type .5s 4.25s steps(20, end) forwards;
-  -moz-animation: type .5s 4.25s steps(20, end) forwards;
-  -o-animation: type .5s 4.25s steps(20, end) forwards;
-  animation: type .5s 4.25s steps(20, end) forwards;
+color: #ffffff;
+-webkit-animation: type .5s 4.25s steps(20, end) forwards;
+-moz-animation: type .5s 4.25s steps(20, end) forwards;
+-o-animation: type .5s 4.25s steps(20, end) forwards;
+animation: type .5s 4.25s steps(20, end) forwards;
 }
 
 .cursor2 {
-  -webkit-animation: blink 1s 5.25s 2 forwards;
-  -moz-animation: blink 1s 5.25s 2 forwards;
-  -o-animation: blink 1s 5.25s 2 forwards;
-  animation: blink 1s 5.25s 2 forwards;
+-webkit-animation: blink 1s 5.25s 2 forwards;
+-moz-animation: blink 1s 5.25s 2 forwards;
+-o-animation: blink 1s 5.25s 2 forwards;
+animation: blink 1s 5.25s 2 forwards;
 }
 
 .line3 {
-  color: #ffffff;
-  -webkit-animation: type .5s 7.5s steps(20, end) forwards;
-  -moz-animation: type .5s 7.5s steps(20, end) forwards;
-  -o-animation: type .5s 7.5s steps(20, end) forwards;
-  animation: type .5s 7.5s steps(20, end) forwards;
+color: #ffffff;
+-webkit-animation: type .5s 7.5s steps(20, end) forwards;
+-moz-animation: type .5s 7.5s steps(20, end) forwards;
+-o-animation: type .5s 7.5s steps(20, end) forwards;
+animation: type .5s 7.5s steps(20, end) forwards;
 }
 
 .cursor3 {
-  -webkit-animation: blink 1s 8.5s 2 forwards;
-  -moz-animation: blink 1s 8.5s 2 forwards;
-  -o-animation: blink 1s 8.5s 2 forwards;
-  animation: blink 1s 8.5s 2 forwards;
+-webkit-animation: blink 1s 8.5s 2 forwards;
+-moz-animation: blink 1s 8.5s 2 forwards;
+-o-animation: blink 1s 8.5s 2 forwards;
+animation: blink 1s 8.5s 2 forwards;
 }
 
 .line4 {
-  color: #fff;
-  -webkit-animation: type .5s 10.75s steps(20, end) forwards;
-  -moz-animation: type .5s 10.75s steps(20, end) forwards;
-  -o-animation: type .5s 10.75s steps(20, end) forwards;
-  animation: type .5s 10.75s steps(20, end) forwards;
+color: #fff;
+-webkit-animation: type .5s 10.75s steps(20, end) forwards;
+-moz-animation: type .5s 10.75s steps(20, end) forwards;
+-o-animation: type .5s 10.75s steps(20, end) forwards;
+animation: type .5s 10.75s steps(20, end) forwards;
 }
 
 .cursor4 {
-  -webkit-animation: blink 1s 11.5s infinite;
-  -moz-animation: blink 1s 8.5s infinite;
-  -o-animation: blink 1s 8.5s infinite;
-  animation: blink 1s 8.5s infinite;
+-webkit-animation: blink 1s 11.5s infinite;
+-moz-animation: blink 1s 8.5s infinite;
+-o-animation: blink 1s 8.5s infinite;
+animation: blink 1s 8.5s infinite;
 }
 
+
 @-webkit-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  opacity: 0;
+}
+40% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+90% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
 }
 
 @-moz-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  opacity: 0;
+}
+40% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+90% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
 }
 
 @-o-keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  opacity: 0;
+}
+40% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+90% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
 }
 
 @keyframes blink {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
+0% {
+  opacity: 0;
+}
+40% {
+  opacity: 0;
+}
+50% {
+  opacity: 1;
+}
+90% {
+  opacity: 1;
+}
+100% {
+  opacity: 0;
+}
 }
 
 @-webkit-keyframes type {
-  to {
-    width: 17em;
-  }
+to {
+  width: 17em;
+}
 }
 
 @-moz-keyframes type {
-  to {
-    width: 17em;
-  }
+to {
+  width: 17em;
+}
 }
 
 @-o-keyframes type {
-  to {
-    width: 17em;
-  }
+to {
+  width: 17em;
+}
 }
 
 @keyframes type {
-  to {
-    width: 75wv;
-  }
+to {
+  width: 75wv;
+}
 }
